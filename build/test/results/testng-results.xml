@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PE_PRJ301" duration-ms="353" started-at="2024-01-17T01:23:11Z" finished-at="2024-01-17T01:23:11Z">
+    <groups>
+    </groups>
+    <test name="TblUsersDAONGTest" duration-ms="353" started-at="2024-01-17T01:23:11Z" finished-at="2024-01-17T01:23:11Z">
+      <class name="pe.tblUsers.TblUsersDAONGTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:pe.tblUsers.TblUsersDAONGTest@5ba23b66]" name="setup" is-config="true" duration-ms="3" started-at="2024-01-17T01:23:11Z" finished-at="2024-01-17T01:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testInvalidLoginData(java.lang.String, java.lang.String)[pri:0, instance:pe.tblUsers.TblUsersDAONGTest@5ba23b66]" name="testInvalidLoginData" duration-ms="284" started-at="2024-01-17T01:23:11Z" finished-at="2024-01-17T01:23:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SE170443]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginData -->
+        <test-method status="PASS" signature="testValidLoginData(java.lang.String, java.lang.String)[pri:0, instance:pe.tblUsers.TblUsersDAONGTest@5ba23b66]" name="testValidLoginData" duration-ms="31" started-at="2024-01-17T01:23:11Z" data-provider="validLoginData" finished-at="2024-01-17T01:23:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginData -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:pe.tblUsers.TblUsersDAONGTest@5ba23b66]" name="setup" is-config="true" duration-ms="0" started-at="2024-01-17T01:23:11Z" finished-at="2024-01-17T01:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testValidLoginData(java.lang.String, java.lang.String)[pri:0, instance:pe.tblUsers.TblUsersDAONGTest@5ba23b66]" name="testValidLoginData" duration-ms="24" started-at="2024-01-17T01:23:11Z" data-provider="validLoginData" finished-at="2024-01-17T01:23:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hoadnt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLoginData -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:pe.tblUsers.TblUsersDAONGTest@5ba23b66]" name="setup" is-config="true" duration-ms="0" started-at="2024-01-17T01:23:11Z" finished-at="2024-01-17T01:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- pe.tblUsers.TblUsersDAONGTest -->
+    </test> <!-- TblUsersDAONGTest -->
+  </suite> <!-- PE_PRJ301 -->
+</testng-results>
